@@ -1,0 +1,14 @@
+path: ./
+extensions:
+  - php
+no-cache: true
+quiet: true
+warning: true
+jobs: 10
+memory_limit: -1
+exclude:
+  - bootstrap
+  - node_modules
+  - vendor
+disabled:
+  - NoLeadingSlashesOnRoutePaths

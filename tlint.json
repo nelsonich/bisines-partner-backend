@@ -1,0 +1,10 @@
+{
+  "preset": "laravel",
+  "disabled": ["NoLeadingSlashesOnRoutePaths", "NoParensEmptyInstantiations"],
+  "excluded": ["tests/"],
+  "paths": [
+    {
+      "controllers": ["app/Domain/Http/Controllers"]
+    }
+  ]
+}
